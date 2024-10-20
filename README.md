@@ -16,5 +16,5 @@ Markit simplifies the networking process, empowering companies to expand their r
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/yourproject.git
-   cd yourproject
+   git clone https://github.com/jans041/imcooked.git
+   cd imcooked
