@@ -7,10 +7,8 @@ Markit simplifies the networking process, empowering companies to expand their r
 
 ## Table of Contents
 - [Installation](#installation)
-- [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+
 
 ## Installation
 
