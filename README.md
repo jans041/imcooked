@@ -14,6 +14,7 @@ Markit simplifies the networking process, empowering companies to expand their r
    ```bash
    git clone https://github.com/jans041/imcooked.git
    cd imcooked
+   cd demo
 2. How to run:
    ```bash
    python manage.py runserver
