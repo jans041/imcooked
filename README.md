@@ -6,9 +6,7 @@ If a company doesn't find a suitable match, they can easily search for additiona
 Markit simplifies the networking process, empowering companies to expand their reach and foster meaningful collaborations.
 
 ## Table of Contents
-- [Installation](#installation)
-- [Contributing](#contributing)
-   
+- [Installation](#installation)   
 
 ## Installation
 
