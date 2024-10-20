@@ -155,7 +155,6 @@
             ];
 
             document.getElementById("change-info-button").addEventListener("click", function() {
-                index++;
                 
                 if (!companyNames.length < index){
                     document.getElementById("company-name").textContent = companyNames[index];
@@ -166,11 +165,12 @@
                 else{
                     document.getElementById("company-name").textContent = "No more companies are available at the moment";
                 }
+                index++;
+
 
             });
     
             document.getElementById("change-info-button1").addEventListener("click", function() {
-                    index++;
                     
                     if (!companyNames.length < index){
                         document.getElementById("company-name").textContent = companyNames[index];
@@ -181,6 +181,7 @@
                     else{
                         document.getElementById("company-name").textContent = "No more companies are available at the moment";
                     }
+                    index++;
 
                 });
             }
