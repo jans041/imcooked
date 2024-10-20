@@ -1,23 +1,22 @@
 .custom-navbar {
-    background-color: #2c2c2c; /* Custom background color */
-    color: #FFFFFF;           /* Custom text color */
+    background-color: #2c2c2c; 
+    color: #FFFFFF;         
   }
   
   .custom-navbar a.nav-link {
     color: #FFFFFF;
     font-family: "Avantgarde", "TeX Gyre Adventor", "URW Gothic L", sans-serif;
-    font-weight: bold;            /* Custom link color */
+    font-weight: bold;          
   }
   
   .custom-navbar a.nav-link:hover {
-    color: #98D57B;         /* Change link color on hover */
+    color: #98D57B;        
   }
 
-  /* styles.css */
   body {
     background: linear-gradient(to right, #a8e6cf, #d0e8f2);
-    height: 100vh; /* Full height */
-    margin: 0; /* No default margin */
+    height: 100vh; 
+    margin: 0; 
   }
 
   

@@ -10,4 +10,4 @@ def about(request):
     return render(request, 'about_us.html')
 
 def contact(request):
-    return render(request, 'index.html')
+    return render(request, 'contact.html')
