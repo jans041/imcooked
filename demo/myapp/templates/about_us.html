@@ -1,0 +1,30 @@
+{% extends "base.html" %} {% block content %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+
+    {% load static %}
+
+    <link rel="stylesheet" href="{% static 'about.css' %}">
+</head>
+<body>
+    <header>
+        <h1>About Us</h1>
+    </header>
+    <main>
+        <section class="about">
+            <img src="{% static 'myapp/images/assets/about.jpg' %}" class="team-image">
+            <h2>Our Story</h2>
+            <p>Welcome to our company! We started our journey in 2024 with a passion for allowing small businesses to have a form to outreach to local customers. Our team is dedicated to providing the best experience for our customers.</p>
+            <h2>Our Mission</h2>
+            <p>Our mission is to innovate and lead in our industry, while maintaining a commitment to quality and sustainability. We believe in making a positive impact in our community and the environment.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Markit. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+{% endblock %}
