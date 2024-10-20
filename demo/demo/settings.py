@@ -122,7 +122,7 @@ STATIC_ROOT = BASE_DIR / 'staticfiles'
 
 STATICFILE_DIRS = [
     BASE_DIR / 'static',
-    "var/www/static/"
+    BASE_DIR / 'myapp/static'
 ]
 
 # Default primary key field type
@@ -130,9 +130,5 @@ STATICFILE_DIRS = [
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-STATICFILES_DIRS = [BASE_DIR / 'static',
-    
-    "var/www/static/"
-    
-    ]  # Or adjust based on your project structure
+ # Or adjust based on your project structure
 

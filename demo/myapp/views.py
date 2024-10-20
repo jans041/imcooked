@@ -1,5 +1,5 @@
 from django.shortcuts import render, HttpResponse
-from .models import TodoItem
+
 
 # Create your views here.
 
@@ -10,4 +10,4 @@ def about(request):
     return render(request, 'about.html')
 
 def contact(request):
-    return render(request, 'contact.html')
+    return render(request, 'index.html')
